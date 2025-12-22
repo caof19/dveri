@@ -5191,6 +5191,7 @@ $(document).ready(() => {
       return;
     e.preventDefault();
     const headerHeight = $(".header").outerHeight() || 0;
+    $(".header--menu").removeClass("header--menu");
     $("html, body").animate(
       {
         scrollTop: $target.offset().top - headerHeight
