@@ -5182,4 +5182,20 @@ $(document).ready(() => {
   $(document).on("click", "[data-modal-close]", function() {
     $(".modal").removeClass("modal--active");
   });
+  $(document).on("click", 'a[href^="#"]', function(e) {
+    const targetId = $(this).attr("href");
+    if (targetId === "#")
+      return;
+    const $target = $(targetId);
+    if (!$target.length)
+      return;
+    e.preventDefault();
+    const headerHeight = $(".header").outerHeight() || 0;
+    $("html, body").animate(
+      {
+        scrollTop: $target.offset().top - headerHeight
+      },
+      600
+    );
+  });
 });

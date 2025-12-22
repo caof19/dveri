@@ -1455,6 +1455,7 @@ input:checked + .diller__text::before {
   margin-top: 7px;
   max-width: 176px;
   margin-left: auto;
+  font-family: "Inter Tight", sans-serif;
 }
 @media screen and (max-width: 576px) {
   .diller .b24-form-btn-block .b24-form-btn {
@@ -1462,6 +1463,9 @@ input:checked + .diller__text::before {
     margin-top: 11px;
     padding-block: 14px;
   }
+}
+.diller .b24-form-field-agreement-link {
+  font-family: "Inter Tight", sans-serif;
 }
 .diller .b24-form-wrapper.b24-form-border-bottom {
   border-bottom: none;
