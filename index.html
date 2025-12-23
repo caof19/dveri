@@ -24,8 +24,8 @@
         <div class="header__contact">
           <div class="header__tel"><a href="tel:+7 (812) 715-88-44">+7 (812) 715-88-44</a></div>
           <div class="header__wa">
-            <svg class="icon icon-whatsapp">
-              <use href="#whatsapp"></use>
+            <svg class="icon icon-tg">
+              <use href="#tg"></use>
             </svg>Написать нам
           </div>
           <div class="header__call" data-modal-open="data-modal-open">Перезвоните мне</div>
@@ -41,7 +41,7 @@
       </div>
     </div>
     <div class="header__small header__small--mob">Установка межкомнатных <br> и входных дверей в Калининграде</div>
-    <nav class="header__nav"><a class="header__item" href="#review">отзывы</a><a class="header__item" href="#step">ТЕХНОЛОГИЯ</a><a class="header__item" href="#diff">ПРЕИМУЩЕСТВА</a><a class="header__item" href="#diller">ДИЛЕРАМ</a><a class="header__item" href="#calculator">ЦЕНЫ</a><a class="header__item" href="#">КОНТАКТЫ</a>
+    <nav class="header__nav"><a class="header__item" href="#review">отзывы</a><a class="header__item" href="#step">ТЕХНОЛОГИЯ</a><a class="header__item" href="#diff">ПРЕИМУЩЕСТВА</a><a class="header__item" href="#diller">ДИЛЕРАМ</a><a class="header__item" href="#calculator">ЦЕНЫ</a><a class="header__item" href="#footer">КОНТАКТЫ</a>
       <div class="header__both">
         <div class="header__tel"><a href="tel:+7 (812) 715-88-44">+7 (812) 715-88-44</a></div>
         <div class="header__line"><a class="header__wa" href="#">
@@ -322,17 +322,7 @@
             </label>
             <label class="calc__lbl">
               <div class="calc__head">Количество дверей</div>
-              <div class="calc__select--wrap">
-                <select class="calc__select" name="calc-count">
-                  <option value="0">Выберите</option>
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                  <option value="5">5</option>
-                  <option value="6">6</option>
-                </select>
-              </div>
+              <input class="calc__input" type="number" min="0"/>
             </label>
           </div>
           <div class="calc__both">
@@ -619,7 +609,7 @@
   </div>
 </div>
     
-<footer class="footer">
+<footer class="footer" id="footer">
   <div class="container">
     <div class="footer__row">
       <div class="footer__left">
@@ -638,7 +628,7 @@
             </div>
           </div>
           <div class="footer__wrap">
-            <div class="footer__list"><a href="#">О нас</a><a href="#">Двери любого типа</a><a href="#">Как мы работаем</a><a href="#">Отзывы</a><a href="#">Оставить заявку</a></div>
+            <div class="footer__list"><a href="#">О нас</a><a href="#">Двери любого типа</a><a href="#step">Как мы работаем</a><a href="#review">Отзывы</a><a href="#diller">Оставить заявку</a></div>
           </div>
         </nav>
         <nav class="footer__menu">
