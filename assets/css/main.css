@@ -310,7 +310,7 @@ body {
   align-items: center;
   background-color: #0088cc1A;
   border-radius: 8px;
-  color: #0088cc;
+  color: #fff;
   cursor: pointer;
   font-weight: 500;
   font-size: 14px;
@@ -320,7 +320,7 @@ body {
 .header__wa svg {
   width: 18px;
   height: 18px;
-  fill: #0088cc;
+  fill: #fff;
 }
 .header__contact {
   display: flex;
