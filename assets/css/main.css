@@ -308,9 +308,9 @@ body {
 .header__wa {
   display: flex;
   align-items: center;
-  background-color: #25D3661A;
+  background-color: #0088cc1A;
   border-radius: 8px;
-  color: #16bb54;
+  color: #0088cc;
   cursor: pointer;
   font-weight: 500;
   font-size: 14px;
@@ -320,7 +320,7 @@ body {
 .header__wa svg {
   width: 18px;
   height: 18px;
-  fill: #25D366;
+  fill: #0088cc;
 }
 .header__contact {
   display: flex;
